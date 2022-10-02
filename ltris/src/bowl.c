@@ -1414,6 +1414,7 @@ void bowl_update( Bowl *bowl, int ms, BowlControls *bc, int game_over )
 	    } else if (bc->hold == CS_DOWN && bowl->hold_active && !bowl->hold_used) {
 		    /* put current piece to hold, use piece in hold or next block */
 		    bowl->hold_used = 1;
+		    bowl->ldelay_cur = 0; /* reset lock delay if any */
 		    if (bowl->hold_id == -1) {
 			    bowl->hold_id = bowl->block.id;
 			    bowl_select_next_block(bowl);
