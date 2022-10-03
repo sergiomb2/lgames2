@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ltris_pt_prod\n"
 "Report-Msgid-Bugs-To: lgames.sf.net/contact.php\n"
-"POT-Creation-Date: 2022-06-17 17:52+0200\n"
+"POT-Creation-Date: 2022-10-03 18:22+0200\n"
 "PO-Revision-Date: 2008-03-30 22:19+0200\n"
 "Last-Translator: Jose Jorge <jjorge@free.fr>\n"
 "Language-Team: portugues <pt@li.org>\n"
@@ -606,65 +606,65 @@ msgstr ""
 msgid "%i Lvl: %i"
 msgstr "%i Nvl: %i"
 
-#: src/bowl.c:1625
+#: src/bowl.c:1626
 msgid "Player:"
 msgstr "Jogador:"
 
-#: src/bowl.c:1629
+#: src/bowl.c:1630
 msgid "Score:"
 msgstr "Pontuacao:"
 
-#: src/bowl.c:1631
+#: src/bowl.c:1632
 msgid "Lines:"
 msgstr "Linhas:"
 
-#: src/bowl.c:1784
+#: src/bowl.c:1785
 msgid "Pieces Placed:"
 msgstr ""
 
-#: src/bowl.c:1785
+#: src/bowl.c:1786
 msgid "I-Pieces:     "
 msgstr ""
 
-#: src/bowl.c:1788
+#: src/bowl.c:1789
 msgid "Singles: "
 msgstr ""
 
-#: src/bowl.c:1789
+#: src/bowl.c:1790
 #, fuzzy
 msgid "Doubles: "
 msgstr "Buracos:"
 
-#: src/bowl.c:1790
+#: src/bowl.c:1791
 msgid "Triples: "
 msgstr ""
 
-#: src/bowl.c:1791
+#: src/bowl.c:1792
 msgid "Tetrises:"
 msgstr ""
 
-#: src/bowl.c:1803
+#: src/bowl.c:1804
 msgid "Droughts:   "
 msgstr ""
 
-#: src/bowl.c:1804
+#: src/bowl.c:1805
 msgid "Drought Max:"
 msgstr ""
 
-#: src/bowl.c:1809
+#: src/bowl.c:1810
 msgid "Drought Avg:"
 msgstr ""
 
-#: src/bowl.c:1816
+#: src/bowl.c:1817
 #, fuzzy
 msgid "Transition:"
 msgstr "Animacoes:"
 
-#: src/bowl.c:1818
+#: src/bowl.c:1819
 msgid "DAS Charge:"
 msgstr ""
 
-#: src/bowl.c:1823
+#: src/bowl.c:1824
 msgid "Drought:   "
 msgstr ""
 
