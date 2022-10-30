@@ -2,7 +2,7 @@
 
 Summary: Kill and destroy as many targets as possible within 3 minutes
 Name: barrage
-Version: 1.0.5
+Version: 1.0.6
 Release: 1
 Copyright: GPL
 Group: Amusements/Games
