@@ -118,8 +118,8 @@ static SDL_Surface *data_create_image( int w, int h )
 	surf = SDL_CreateRGBSurface( 
 			SDL_SWSURFACE, w, h, 
 			screen->format->BitsPerPixel,
-			screen->format->Rmask, screen->format->Bmask,
-			screen->format->Gmask, screen->format->Amask );
+			screen->format->Rmask, screen->format->Gmask,
+			screen->format->Bmask, screen->format->Amask );
 	if ( surf == 0 ) {
 		printf( "%s\n", SDL_GetError() );
 		exit(1);

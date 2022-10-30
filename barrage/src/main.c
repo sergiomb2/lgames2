@@ -190,8 +190,8 @@ static void set_video_mode()
 	vsurf = SDL_GetVideoSurface();
 	screen = SDL_CreateRGBSurface( SDL_SWSURFACE, 640, 480,
 			vsurf->format->BitsPerPixel,
-			vsurf->format->Rmask, vsurf->format->Bmask,
-			vsurf->format->Gmask, vsurf->format->Amask );
+			vsurf->format->Rmask, vsurf->format->Gmask,
+			vsurf->format->Bmask, vsurf->format->Amask );
 
 }
 
@@ -271,8 +271,8 @@ static void fade_screen( int type, int time )
 	buffer = SDL_CreateRGBSurface( 
 			SDL_SWSURFACE, screen->w, screen->h, 
 			screen->format->BitsPerPixel,
-			screen->format->Rmask, screen->format->Bmask,
-			screen->format->Gmask, screen->format->Amask );
+			screen->format->Rmask, screen->format->Gmask,
+			screen->format->Bmask, screen->format->Amask );
 	if ( buffer == 0 ) return;
 	SDL_BlitSurface( screen, 0, buffer, 0 );
 
