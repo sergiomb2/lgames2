@@ -1,3 +1,7 @@
+1.0.6:
+- create desktop file from desktop.in (2022/10/30 MS)
+- removed Makefile.in from repository (2022/10/30 MS)
+- fixed wrong color masks (2022/10/30 Ryan C. Gordon)
 - removed compile warning restrictions (2022/03/03 MS)
 - avoid odd resolutions like 1366x768 (2020/12/29 MS)
 
